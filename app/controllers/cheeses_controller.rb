@@ -13,6 +13,7 @@ class CheesesController < ApplicationController
     render json: cheese
     else
       render json: {error: "Cheese not found"}, status: not_found
+    end
   end
 
 end
